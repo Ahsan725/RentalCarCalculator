@@ -60,7 +60,7 @@ public class RentalCarCalculator {
             total += (basicCarRental * numDays);
         }
 
-        System.out.println("Success! You have booked the car for " + pickupDate + " for " + numDays + " days. Your total is: $" + total + " Your options cost is: $" + optionsCost);
+        System.out.println("Success! You have booked the car for " + pickupDate + " for " + numDays + " days.");
         System.out.println("The base price is: " + baseTotal);
         System.out.println("The surcharge is: " + surcharge);
         System.out.println("The options costed: " + optionsCost);
